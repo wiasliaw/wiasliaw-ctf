@@ -73,13 +73,6 @@ contract SideEntranceChallenge is Test {
         trigger.withdrawAndSend(recovery);
     }
 
-    function run() public {
-        vm.startPrank(player);
-        Trigger trigger = new Trigger(pool);
-        trigger.flashloan(ETHER_IN_POOL);
-        trigger.withdrawAndSend(recovery);
-    }
-
     /**
      * CHECKS SUCCESS CONDITIONS - DO NOT TOUCH
      */

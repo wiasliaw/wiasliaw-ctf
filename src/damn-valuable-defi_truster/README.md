@@ -1,4 +1,4 @@
-# Damn Vulnerable DeFi v4 - unstoppable
+# Damn Vulnerable DeFi v4 - truster
 
 - https://www.damnvulnerabledefi.xyz/challenges/truster/
 
