@@ -2,5 +2,10 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+fs_permissions = [
+    { access = "read", path = "./lib/damn-vulnerable-defi/builds/uniswap/" },
+    { access = "read", path = "./lib/damn-vulnerable-defi/test/the-rewarder/dvt-distribution.json" },
+    { access = "read", path = "./lib/damn-vulnerable-defi/test/the-rewarder/weth-distribution.json" },
+    { access = "read", path = "./lib/damn-vulnerable-defi/test/withdrawal/withdrawals.json" },
+]
+bytecode_hash = "none"
